@@ -1,6 +1,6 @@
 #page title
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
-url                                       : https://garanda21.github.io/automatic-app-landing-page
+url                                       : https://cloudstream.arandabar.com
 
 # App Info
 ios_app_id                                : 1138002135                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
