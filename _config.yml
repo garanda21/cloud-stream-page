@@ -1,0 +1,142 @@
+#page title
+page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+url                                       : https://garanda21.github.io/automatic-app-landing-page
+
+# App Info
+ios_app_id                                : 1138002135                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Watch the TV IPTV from your ISP or any other TV Internet source from your iPhone or iPad!
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Giovanny Aranda                                
+your_link                                 :                     
+your_city                                 : Madrid                                
+email_address                             : 
+facebook_username                         :                                           
+instagram_username                        : 
+twitter_username                          : cloudstreamplay
+github_username                           : 
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : IPTV
+    description                           : Play IPTV from your internet provider on a convenient interface
+    fontawesome_icon_name                 : tv
+    
+  - title                                 : Support M3U and M3U8 playlists
+    description                           : Possibility to add playlists from the file system device or via Internet.
+    fontawesome_icon_name                 : file-video
+
+  - title                                 : Groups management
+    description                           : Create, edit, delete and manage all your streams inside practical groups.
+    fontawesome_icon_name                 : folder
+
+  - title                                 : Sync of playlists on all your iOS devices
+    description                           : Keep up to date all your playlists on all your devices through iCloud synchronization.
+    fontawesome_icon_name                 : cloud
+
+  - title                                 : Chromecast
+    description                           : Send your content to other screens using your Chromecast (Not all streams are supported)
+    fontawesome_icon_name                 : broadcast-tower
+
+  - title                                 : Playlists with icons or avatars
+    description                           : Personalize your playlists and streams with hundreds of preset icons or even you can use your own images.
+    fontawesome_icon_name                 : pencil-ruler
+    
+  - title                                 : Parental control
+    description                           : Protect your playlists or streams using a lock-code (Compatible with FaceID and TouchID).
+    fontawesome_icon_name                 : user-lock
+
+  - title                                 : Customize appearance
+    description                           : Choose your own style customizing the interface colors according to your mood.
+    fontawesome_icon_name                 : paint-roller
+
+  - title                                 : Backup playlists
+    description                           : Create a backup for all your playlists and save them or share them.
+    fontawesome_icon_name                 : undo
+
+  - title                                 : Apple TV
+    description                           : Enjoy your playlist on the big screen using the Apple TV app
+    fontawesome_icon_name                 : box
+
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#000000"
+
+link_color                                : "#ffd41b"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#ffd41b"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#ffffff"
+feature_icons_background_color            : "#666666"
+
+social_icons_foreground_color             : "#ffffff"
+social_icons_background_color             : "#666666"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
